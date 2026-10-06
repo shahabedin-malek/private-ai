@@ -1,0 +1,111 @@
+{
+  "database_status_counts": {
+    "FAILED": 10,
+    "VERIFIED": 58
+  },
+  "last_batch_verification": {"repository_ids": ["REPO-0410", "REPO-0411"], "independently_checked_members": 8324, "source_member_and_global_per_item_hash_errors": 0, "global_database_integrity": "ok", "foreign_key_issues": 0, "verification_timestamp": "2026-10-06T08:59:12Z"},
+  "final_live_reconciliation": {"manifest_sources": 68, "filesystem_sources": 68, "job_rows": 68, "status_counts": {"VERIFIED": 58, "FAILED": 10}, "active_leases": 0, "global_extraction_jobs": 365, "global_extracted_outputs": 230785, "parser_rows": 68968, "simple_unparsed_row_count": 161817, "markdown_records": 55970, "parse_outbox": 0, "database_integrity": "ok", "foreign_key_issues": 0},
+  "post_extraction_parser_batch": {"selected": 1000, "counts": {"PARSED": 747, "SENSITIVE": 92, "UNSUPPORTED_TYPE": 114, "BINARY": 41, "TOO_LARGE": 6}, "errors": [], "mirrors_recovered": 0, "sample_verify_checked": 5, "sample_verify_issues": 0, "timestamp": "2026-10-06T09:03:46Z"},
+  "scratch_free_bytes_at_checkpoint": 31443132416,
+  "deferred_this_batch": 0,
+  "next_exact_action": "Resume `python3 scripts/corpus_new_batch.py --project . --corpus repo --scratch /home/chris/data-processing --batch-size 12 --wall-seconds 240 --per-call-seconds 35`; queue scheduling now favors never-attempted inputs so paused large archives cannot starve pending sources. Afterward reconcile extraction_jobs, output hashes, per-item mirrors, SSD quota, and parser pending count.",
+  "outcomes": [
+    {
+      "attempts": 3,
+      "passes": 1,
+      "repository_id": "REPO-0417",
+      "results": [
+        {
+          "blocked": 0,
+          "failed": 1,
+          "paused": 0,
+          "skipped_verified": 0,
+          "terminal_records_mirrored": 0,
+          "verified": 0
+        }
+      ],
+      "status": "FAILED"
+    },
+    {
+      "attempts": 15,
+      "passes": 2,
+      "repository_id": "REPO-0410",
+      "results": [
+        {
+          "blocked": 0,
+          "failed": 0,
+          "paused": 1,
+          "skipped_verified": 0,
+          "terminal_records_mirrored": 0,
+          "verified": 0
+        },
+        {
+          "blocked": 0,
+          "failed": 0,
+          "paused": 0,
+          "skipped_verified": 0,
+          "terminal_records_mirrored": 0,
+          "verified": 1
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "attempts": 8,
+      "passes": 1,
+      "repository_id": "REPO-0411",
+      "results": [
+        {
+          "blocked": 0,
+          "failed": 0,
+          "paused": 0,
+          "skipped_verified": 0,
+          "terminal_records_mirrored": 0,
+          "verified": 1
+        }
+      ],
+      "status": "VERIFIED"
+    },
+    {
+      "attempts": 8,
+      "passes": 2,
+      "repository_id": "REPO-0419",
+      "results": [
+        {
+          "blocked": 0,
+          "failed": 0,
+          "paused": 1,
+          "skipped_verified": 0,
+          "terminal_records_mirrored": 0,
+          "verified": 0
+        },
+        {
+          "blocked": 0,
+          "failed": 1,
+          "paused": 0,
+          "skipped_verified": 0,
+          "terminal_records_mirrored": 0,
+          "verified": 0
+        }
+      ],
+      "status": "FAILED"
+    }
+  ],
+  "phase": "PHASE 5 \u2014 new-repository extraction",
+  "processed_this_batch": 4,
+  "processing_device": 2050,
+  "project_device": 2081,
+  "python_tempdir": "/home/chris/data-processing/private-ai-tmp/tmp",
+  "scratch_cap_bytes": 21474836480,
+  "scratch_usage_bytes": 936331341,
+  "ssd_write_verified": true,
+  "staged_source_bytes": 936331341,
+  "status_counts": {
+    "FAILED": 10,
+    "VERIFIED": 58
+  },
+  "task_id": "CORPUS-0006-NEW-ZIPS",
+  "total_items": 68,
+  "total_new_repositories": 68,
+  "updated_at": "2026-10-06T09:04:00Z"
+}

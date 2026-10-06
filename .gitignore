@@ -1,0 +1,23 @@
+# --- large / sensitive / generated data: never version these ---
+/repo/
+/data/
+/old-dev/
+node_modules/
+.trigger/
+
+# --- secrets (credentials must never be committed) ---
+.env
+.env.*
+!.env.example
+/api.txt
+
+# --- Python bytecode / SQLite runtime artifacts ---
+*.pyc
+__pycache__/
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+
+# --- runtime locks and stray extraction stubs ---
+.progress/CORPUS-0006-parser.lock
+/REPO-*/

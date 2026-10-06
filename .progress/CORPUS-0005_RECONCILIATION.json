@@ -1,0 +1,396 @@
+{
+  "batches": {
+    "0": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 1,
+        "verified_outputs": 9
+      },
+      "issues": [],
+      "next_offset": 10,
+      "offset": 0
+    },
+    "10": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 4,
+        "verified_outputs": 6
+      },
+      "issues": [],
+      "next_offset": 20,
+      "offset": 10
+    },
+    "100": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 2,
+        "verified_outputs": 8
+      },
+      "issues": [],
+      "next_offset": 110,
+      "offset": 100
+    },
+    "110": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 3,
+        "verified_outputs": 7
+      },
+      "issues": [],
+      "next_offset": 120,
+      "offset": 110
+    },
+    "120": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 4,
+        "verified_outputs": 6
+      },
+      "issues": [],
+      "next_offset": 130,
+      "offset": 120
+    },
+    "130": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 1,
+        "sources_hashed": 9,
+        "terminal_jobs": 6,
+        "verified_outputs": 4
+      },
+      "issues": [],
+      "next_offset": 140,
+      "offset": 130
+    },
+    "140": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 5,
+        "verified_outputs": 5
+      },
+      "issues": [],
+      "next_offset": 150,
+      "offset": 140
+    },
+    "150": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 3,
+        "verified_outputs": 7
+      },
+      "issues": [],
+      "next_offset": 160,
+      "offset": 150
+    },
+    "160": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 2,
+        "verified_outputs": 8
+      },
+      "issues": [],
+      "next_offset": 170,
+      "offset": 160
+    },
+    "170": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 6,
+        "verified_outputs": 4
+      },
+      "issues": [],
+      "next_offset": 180,
+      "offset": 170
+    },
+    "180": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 5,
+        "verified_outputs": 5
+      },
+      "issues": [],
+      "next_offset": 190,
+      "offset": 180
+    },
+    "190": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 1,
+        "verified_outputs": 9
+      },
+      "issues": [],
+      "next_offset": 200,
+      "offset": 190
+    },
+    "20": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 3,
+        "verified_outputs": 7
+      },
+      "issues": [],
+      "next_offset": 30,
+      "offset": 20
+    },
+    "200": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 2,
+        "verified_outputs": 8
+      },
+      "issues": [],
+      "next_offset": 210,
+      "offset": 200
+    },
+    "210": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 6,
+        "verified_outputs": 4
+      },
+      "issues": [],
+      "next_offset": 220,
+      "offset": 210
+    },
+    "220": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 1,
+        "verified_outputs": 9
+      },
+      "issues": [],
+      "next_offset": 230,
+      "offset": 220
+    },
+    "230": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 3,
+        "verified_outputs": 7
+      },
+      "issues": [],
+      "next_offset": 240,
+      "offset": 230
+    },
+    "240": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 0,
+        "verified_outputs": 10
+      },
+      "issues": [],
+      "next_offset": 250,
+      "offset": 240
+    },
+    "250": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 1,
+        "verified_outputs": 9
+      },
+      "issues": [],
+      "next_offset": 260,
+      "offset": 250
+    },
+    "260": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 2,
+        "verified_outputs": 8
+      },
+      "issues": [],
+      "next_offset": 270,
+      "offset": 260
+    },
+    "270": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 0,
+        "verified_outputs": 10
+      },
+      "issues": [],
+      "next_offset": 280,
+      "offset": 270
+    },
+    "280": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 0,
+        "verified_outputs": 10
+      },
+      "issues": [],
+      "next_offset": 290,
+      "offset": 280
+    },
+    "290": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 7,
+        "missing_sources": 0,
+        "sources_hashed": 7,
+        "terminal_jobs": 1,
+        "verified_outputs": 6
+      },
+      "issues": [],
+      "next_offset": 297,
+      "offset": 290
+    },
+    "30": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 4,
+        "verified_outputs": 6
+      },
+      "issues": [],
+      "next_offset": 40,
+      "offset": 30
+    },
+    "40": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 5,
+        "verified_outputs": 5
+      },
+      "issues": [],
+      "next_offset": 50,
+      "offset": 40
+    },
+    "50": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 5,
+        "verified_outputs": 5
+      },
+      "issues": [],
+      "next_offset": 60,
+      "offset": 50
+    },
+    "60": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 4,
+        "verified_outputs": 6
+      },
+      "issues": [],
+      "next_offset": 70,
+      "offset": 60
+    },
+    "70": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 3,
+        "verified_outputs": 7
+      },
+      "issues": [],
+      "next_offset": 80,
+      "offset": 70
+    },
+    "80": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 1,
+        "verified_outputs": 9
+      },
+      "issues": [],
+      "next_offset": 90,
+      "offset": 80
+    },
+    "90": {
+      "candidate_total": 297,
+      "checked": {
+        "candidates": 10,
+        "missing_sources": 0,
+        "sources_hashed": 10,
+        "terminal_jobs": 7,
+        "verified_outputs": 3
+      },
+      "issues": [],
+      "next_offset": 100,
+      "offset": 90
+    }
+  },
+  "candidate_total": 297,
+  "manifest_timestamp": "2026-10-05T06:58:49Z"
+}

@@ -1,0 +1,16 @@
+#!/usr/bin/env sh
+# Pre-commit guard: block a commit that would introduce parser-total drift in the control-plane docs.
+# The checker verifies (1) every documented breakdown sums to a total stated on the same line and
+# (2) the freshest documented total matches the live corpus database. Exit 1 aborts the commit.
+#
+# Enable once per clone:   npm run hooks:install      (sets core.hooksPath=.githooks)
+set -eu
+
+cd "$(git rev-parse --show-toplevel)"
+
+if ! command -v python3 >/dev/null 2>&1; then
+    echo "pre-commit: python3 not found; skipping progress-consistency check" >&2
+    exit 0
+fi
+
+exec python3 scripts/progress_consistency.py --project .

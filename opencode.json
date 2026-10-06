@@ -1,0 +1,16 @@
+{
+  "mcp": {
+    "trigger": {
+      "command": [
+        "npx",
+        "trigger.dev@latest",
+        "mcp",
+        "--dev-only",
+        "--project-ref",
+        "proj_ldxacbqsdsakdqozeqdi"
+      ],
+      "enabled": true,
+      "type": "local"
+    }
+  }
+}

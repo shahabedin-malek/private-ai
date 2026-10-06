@@ -1,0 +1,30 @@
+{
+  "name": "private-ai-trigger-worker",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "trigger:dev": "trigger dev",
+    "trigger:deploy": "trigger deploy",
+    "test:trigger": "node --experimental-strip-types --test tests/trigger-tasks.test.ts",
+    "test:python": "python3 -m unittest discover -s tests -q",
+    "check:progress": "python3 scripts/progress_consistency.py --project .",
+    "hooks:install": "git config core.hooksPath .githooks",
+    "verify": "npm run typecheck && npm run check:progress && npm run test:python",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^4.0.72",
+    "@trigger.dev/sdk": "^4.7.2",
+    "ai": "^7.0.128"
+  },
+  "devDependencies": {
+    "@trigger.dev/build": "^4.7.2",
+    "@types/node": "^26.6.4",
+    "trigger.dev": "^4.7.2",
+    "typescript": "^5.9.3"
+  }
+}

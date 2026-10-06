@@ -1,0 +1,24 @@
+name: consistency
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  progress-consistency:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.14"
+
+      # Fails on a parser breakdown that does not sum to its stated total, and — when the corpus
+      # database (data/database/private_ai_corpus.sqlite) is present — on a documented total that
+      # disagrees with the live database. The database check is skipped automatically if absent.
+      - name: Control-plane consistency (sum + live database)
+        run: python3 scripts/progress_consistency.py --project .
+
+      - name: Python test suite
+        run: python3 -m unittest discover -s tests -q
